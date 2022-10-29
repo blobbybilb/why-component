@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<head></head>
+<head>
+  <script defer src="/why.js"></script>
+</head>
 <body>
-  <x-component> test </x-component>
+  <!-- component folder is "/components/" by default, but can be set in why.js by changing (componentsDirectory) -->
+
+  <!-- HTML component in /components/another-directory/some-compenent.html -->
+  <y-component some-component src="another-directory/some-component">
+  </y-component>
+
+  <hr />
+
+  <!-- markdown component in /components/-->
+  <y-component markdown-component markdown src="markdown-component">
+  </y-component>
+
+  <hr />
+
+  <!-- if there's no src, whatever is inside the tag is used as the component -->
+  <y-component another-markdown-component markdown>
+    # this will be rendered
+  </y-component>
+
+  <hr />
+
+  <!-- if not, then whatever is inside the tag replaces [y-data] in component file -->
+  <y-component some-component src="another-directory/some-component">
+    from outside!
+  </y-component>
 </body>
-<style>
-  x-nothing {
-    font-size: larger;
-  }
-</style>
