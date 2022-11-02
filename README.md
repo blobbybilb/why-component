@@ -18,7 +18,7 @@ Add this to HTML:
 <script defer src="/why.js"></script>
 ```
 
-This repo is an example, see `index.html`.
+This repo is an example, see `index.html`. To try it out, clone/download this repository and start a file server in the main folder.
 
 ## known bugs
 
