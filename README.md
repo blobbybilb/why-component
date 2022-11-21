@@ -4,6 +4,10 @@
 
 **Status: production-ready meme**
 
+## Why?
+I often want components, like in most frontend frameworks, in pure HTML/CSS/JS without the need to compile. This is a simplest way I could think of to implement this.
+
+
 ## Features:
 
 - Reuseable external components done in a very basic way (with markdown support)
