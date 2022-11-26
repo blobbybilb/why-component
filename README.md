@@ -27,3 +27,7 @@ This repo is an example, see `index.html`. To try it out, clone/download this re
 ## known bugs
 
 - rendering markdown that has whitespace at the start of the line
+
+
+## Limitations
+Yes.
