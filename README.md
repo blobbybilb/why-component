@@ -2,7 +2,7 @@
 
 ### no-compile HTML/JS library to make reuseable components
 
-**Status: [production-ready meme](https://github.com/fireship-io/flamethrower)**
+**Status: [production-ready meme](https://github.com/fireship-io/flamethrower#README)**
 
 ## Why?
 I often want components, like in most frontend frameworks, in pure HTML/CSS/JS without the need to compile. This is a simplest way I could think of to implement this.
