@@ -5,7 +5,7 @@
 **Status: [production-ready meme](https://github.com/fireship-io/flamethrower#flamethrower-)**
 
 ## Why?
-I often want components, like in most frontend frameworks, in pure HTML/CSS/JS without the need to compile. This is a simplest way I could think of to implement this.
+I often want components, like in most frontend frameworks, in pure HTML/CSS/JS without the need to compile. This is the simplest way I could think of to implement this.
 
 
 ## Features:
